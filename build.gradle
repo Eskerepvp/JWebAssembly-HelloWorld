@@ -29,11 +29,7 @@ dependencies {
 
 
 sourceSets {
-    main {
-        java {
-            srcDir 'src/main/java'
-        }
-    }
+    main.java.srcDirs += 'src/main/java'
 }
 
 wasm {
